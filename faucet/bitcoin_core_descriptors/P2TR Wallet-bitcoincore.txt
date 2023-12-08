@@ -1,0 +1,9 @@
+# Receive and change descriptor (BIP389):
+tr([f004c855/86h/1h/0h]tpubDCQ5sLb3EZF5wgPzGaB9Nsxp9MAgfMhvmwxmjkYsSCFEp696nqrzDXWrZ9c3niMkpXbGJK78cVAy7QPkRotRshRAr26pMLsANA2uKEDFzqj/<0;1>/*)#y4mmnsqu
+
+
+# Receive descriptor (Bitcoin Core):
+tr([f004c855/86h/1h/0h]tpubDCQ5sLb3EZF5wgPzGaB9Nsxp9MAgfMhvmwxmjkYsSCFEp696nqrzDXWrZ9c3niMkpXbGJK78cVAy7QPkRotRshRAr26pMLsANA2uKEDFzqj/0/*)#uj2lrqel
+
+# Change descriptor (Bitcoin Core):
+tr([f004c855/86h/1h/0h]tpubDCQ5sLb3EZF5wgPzGaB9Nsxp9MAgfMhvmwxmjkYsSCFEp696nqrzDXWrZ9c3niMkpXbGJK78cVAy7QPkRotRshRAr26pMLsANA2uKEDFzqj/1/*)#dx0774f8

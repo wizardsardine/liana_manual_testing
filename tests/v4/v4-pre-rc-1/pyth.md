@@ -31,6 +31,7 @@
 - [x] restart liana
 - [x] IBD ends up properly (less than 10 min)
 - [fail] verify addresses on nano s (missing policy)
+- [x] verify addresses on specter (missing policy)
 - [x] Receive from P2WPKH faucet (2 coin, 1 change, txid 33104a5276b40a047177abe18278bb0e934872b72b28a4f208114ad8b4668e58)
 - [x] add labels
 - [x] cancel on sparrow side (RBF  txid f71b965589f6d51a3804628f067a89efbc0e298ac42c73fb0157597906afcf05)
@@ -45,7 +46,7 @@
 - [x] register signer C on machine 2
 - [x] register signer B on machine 2
 - [fail same machine 1] Register B on machine 3
-- [ ] Recovery with path2 (A + C) on P2TR faucet
+- [x] Recovery with path2 (A + C) on P2TR faucet (txid 1678dfa5d6d7cca82c3c8aa0ec62804e1e8e6a80bd61fce24ef459b30c18cab2)
 
 ### Notes about registering issues
 

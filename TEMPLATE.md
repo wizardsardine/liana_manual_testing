@@ -8,6 +8,11 @@
 - [ ] IBD Mainnet <platform>
 - [ ] Build <platform> commit <commit> 
 
+## Upgrade
+
+- [ ] Upgrade from V2
+- [ ] Upgrade from V3
+
 ## Setup 1 => from zero (Signet Managed by Liana)
 
 - [ ] Generate 1 hot seed (A)

@@ -60,6 +60,10 @@ trying register via async-hwi:
 Error: Device("Device {\n    command: 2,\n    status: IncorrectData,\n}")
 ```
 
+wsh(or_i(and_v(v:thresh(1,pkh([57c21481/48'/1'/0'/2']tpubDEsXhSAxdgvibUiVQhRZYaHzxS6KXVa5oborTUGrLyHWq8GSHZdRU2ToGhjuYc3KLVYPtPftFGkjrMPUw6zxWZxaoN3v2zSzxAXftMxz95z/<4;5>/*),a:pkh([7cab1066/48'/1'/0'/2']tpubDDvqWeedNeqAfoMYPAV5ewJcgQEuuAC9en8UzxZ3PSqiDZcjpLZSXs9yu2S4hYcQb6S7UrSy8eBvk199WgzAsjWmaE8TW87q3riaXfWcRQ6/<4;5>/*),a:pkh([6abb52a9/48'/1'/0'/2']tpubDFZTCVU1Sa9nJXCxx97UFvGausHQPFjJyaiDbdr8GNqjCLKwYc8ihegK7yJdcizs9HMbiGA7ke1HiCENVHaERvNANHW7U2Wo2qnRsuqB52r/<4;5>/*)),older(20)),or_d(multi(3,[57c21481/48'/1'/0'/2']tpubDEsXhSAxdgvibUiVQhRZYaHzxS6KXVa5oborTUGrLyHWq8GSHZdRU2ToGhjuYc3KLVYPtPftFGkjrMPUw6zxWZxaoN3v2zSzxAXftMxz95z/<0;1>/*,[7cab1066/48'/1'/0'/2']tpubDDvqWeedNeqAfoMYPAV5ewJcgQEuuAC9en8UzxZ3PSqiDZcjpLZSXs9yu2S4hYcQb6S7UrSy8eBvk199WgzAsjWmaE8TW87q3riaXfWcRQ6/<0;1>/*,[6abb52a9/48'/1'/0'/2']tpubDFZTCVU1Sa9nJXCxx97UFvGausHQPFjJyaiDbdr8GNqjCLKwYc8ihegK7yJdcizs9HMbiGA7ke1HiCENVHaERvNANHW7U2Wo2qnRsuqB52r/<0;1>/*),and_v(v:thresh(2,pkh([57c21481/48'/1'/0'/2']tpubDEsXhSAxdgvibUiVQhRZYaHzxS6KXVa5oborTUGrLyHWq8GSHZdRU2ToGhjuYc3KLVYPtPftFGkjrMPUw6zxWZxaoN3v2zSzxAXftMxz95z/<2;3>/*),a:pkh([7cab1066/48'/1'/0'/2']tpubDDvqWeedNeqAfoMYPAV5ewJcgQEuuAC9en8UzxZ3PSqiDZcjpLZSXs9yu2S4hYcQb6S7UrSy8eBvk199WgzAsjWmaE8TW87q3riaXfWcRQ6/<2;3>/*),a:pkh([6abb52a9/48'/1'/0'/2']tpubDFZTCVU1Sa9nJXCxx97UFvGausHQPFjJyaiDbdr8GNqjCLKwYc8ihegK7yJdcizs9HMbiGA7ke1HiCENVHaERvNANHW7U2Wo2qnRsuqB52r/<2;3>/*)),older(10)))))#nhp0a7gj
+
+Solved => Script template (BIP Wallet policies) size > Nano S max (192 chars)
+
 ## 'Participate' Setup using standalone bitcoind
 
 ### Machine 1 handle A and B using 'participate' mode

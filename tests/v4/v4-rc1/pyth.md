@@ -88,3 +88,11 @@ Previously using bitcoind25.0 and have signet full IBD Done.
 ## Notes
 
 - when doing a participate setup, whe should supply to user a single file containing at least descriptor + pubkeys aliases
+
+## Issue to open
+- Warn user if they using a Nano S w/ a too big script (we should do some test to make a 'table' of wich template are allowed, 
+as some descriptor template w/ a size < 192 chqr cannot be signed by Nano S, as in my v4-rc1 / v4-pre-rc-1 testing round)
+- Downloading liana w/ edge browser we had a hint we need to bypass for download
+- Windows installer?
+- Specter is not detected on Win10
+- Single file backup including (descriptor + pubkey aliases + labels)

@@ -26,7 +26,7 @@
 - [x] Let Liana handle bitcoind
 - [x] kill liana during IBD (SIGTERM)
 - [x] restart liana
-- [x] stop liqnq normal way
+- [x] stop liana normal way
 - [x] restart laptop
 - [x] restart liana
 - [x] IBD ends up properly (less than 10 min)

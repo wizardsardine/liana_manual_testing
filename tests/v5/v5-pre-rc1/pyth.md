@@ -171,7 +171,7 @@
 
 - [unexpected behaviour] #546 When sending, have a max button to send the whole balance (sweep wallet)
 
-  ![screenshot](assets/456_1.png)
+  ![screenshot](assets/546_1.png)
 
   it's not obvious but next button is greyed out
 
@@ -182,7 +182,7 @@
     - label
     - select the max checkbox
 
-  ![screenshot](assets/456_2.png)
+  ![screenshot](assets/546_2.png)
 
   it's not obvious but next button is greyed out
 
@@ -215,7 +215,7 @@
 - [?] #791 GUI: Installer: Drop "backup descriptor" step when recovering from descriptor
   - look at `participate` flow:
 
-  ![screenshot](assets/811.png)
+  ![screenshot](assets/791.png)
 
   we still ask user to backup the descriptor he just supply to liana, not sure we should drop this one but want to notice
 

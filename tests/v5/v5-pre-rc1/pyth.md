@@ -124,11 +124,53 @@
 
 - [ ] Verify reception address w/ Nano S+
 
-- [x] Receive from faucet (1 coin, 0 change)
-- [x] send back to faucet (1 coins, 1 change) primary path
+- [ ] Receive from faucet (1 coin, 0 change)
+- [ ] send back to faucet (1 coins, 1 change) primary path
 
 
 
-## Notes
+## Issues
+
+- [x] #888/#887 GUI: refresh homepage after broadcasting a transaction / Refresh the state of the wallet after broadcasting a transaction
+  - works as expected
+- [x] #866 Hint at rescanning when user imports descriptor
+  - import a descriptor w/ a coin, the coin appear well on first opening
+- [x] #381 Signing fails if another process has an open connection with a Ledger. Maybe have a hint about it in the error?+
+  - see ![screenshot](assets/381.png)
+- [x] #693 Explicit error when trying to rescan past the pruned height
+  - see ![screenshot](assets/693.png)
+- [x] #644/#850 GUI: Signing screen hides detail of transaction/Gui show transaction detail while signing
+  - see ![screenshot](assets/850.png)
+- [x] #580*/#847 Coldcard signing device integration/Add coldcard
+  - see Setup 1
+- [x] #781 GUI: Installer: clearer error on descriptor import for wrong network
+  - see ![screenshot](assets/781.png)
+
+
+- [unexpected behaviour] #546 When sending, have a max button to send the whole balance (sweep wallet)
+
+
+- [fix] #991 [GUI] Move qr code to modal
+    - fix for taproot display
+- [fix] #1017 Updating aliases doesn't record them
+      - see [record](assets/1017.mp4)
+
+- [?] #791 GUI: Installer: Drop "backup descriptor" step when recovering from descriptor
+  - look at `participate` flow
+
+
+
+
+- [ ] #826 Let coin selection use (some?) unconfirmed coins
+- [ ] #356 Support for rpcuser / rpcpassword instead of cookie file auth for bitcoind RPC
+- [ ] #929 [GUI] Use -rpcauth option for Liana-managed bitcoind instead of cookie path
+- [ ] #861 GUI: RBF: automated labelling?
+- [ ] #812 GUi: setup: address & cookie path doesn't update when choosing other network
+- [ ] #900 GUI: errors when triggering rescan aren't displayed, at all
+- [ ] #841 gui: double check change addresses
+- [ ] #934 Panic in installer if user changed network while using managed bitcoind
+- [ ] #903 RBF: warn the user if they are about to shoot them in the foot.
+- [ ] #811 Warn when adding the change output's value to fees.
+
 
 

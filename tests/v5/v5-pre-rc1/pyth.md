@@ -131,46 +131,109 @@
 
 ## Issues
 
+### Successfully checked
+
 - [x] #888/#887 GUI: refresh homepage after broadcasting a transaction / Refresh the state of the wallet after broadcasting a transaction
   - works as expected
+
 - [x] #866 Hint at rescanning when user imports descriptor
   - import a descriptor w/ a coin, the coin appear well on first opening
+
 - [x] #381 Signing fails if another process has an open connection with a Ledger. Maybe have a hint about it in the error?+
   - see ![screenshot](assets/381.png)
+
+- [x] #900 GUI: errors when triggering rescan aren't displayed, at all
 - [x] #693 Explicit error when trying to rescan past the pruned height
   - see ![screenshot](assets/693.png)
+
 - [x] #644/#850 GUI: Signing screen hides detail of transaction/Gui show transaction detail while signing
   - see ![screenshot](assets/850.png)
+
 - [x] #580*/#847 Coldcard signing device integration/Add coldcard
   - see Setup 1
+
 - [x] #781 GUI: Installer: clearer error on descriptor import for wrong network
   - see ![screenshot](assets/781.png)
 
+- [x] #812 GUi: setup: address & cookie path doesn't update when choosing other network
+  - ok
+
+- [x] #903 RBF: warn the user if they are about to shoot them in the foot.
+  - see ![screenshot](assets/903.png)
+
+- [x] #811 Warn when adding the change output's value to fees.
+  - see ![screenshot](assets/811.png)
+
+- [x] #934 Panic in installer if user changed network while using managed bitcoind
+  - Ok, do not panic now
+
+### Comments
 
 - [unexpected behaviour] #546 When sending, have a max button to send the whole balance (sweep wallet)
 
+  ![screenshot](assets/456_1.png)
 
-- [fix] #991 [GUI] Move qr code to modal
-    - fix for taproot display
-- [fix] #1017 Updating aliases doesn't record them
-      - see [record](assets/1017.mp4)
+  it's not obvious but next button is greyed out
+
+  - as i remember (but cannot reproduce):
+    - manually select coins
+    - set fee rate
+    - input address
+    - label
+    - select the max checkbox
+
+  ![screenshot](assets/456_2.png)
+
+  it's not obvious but next button is greyed out
+
+  here i'm 90% sure the flow (can reproduce only once)
+    - Liana just opened
+    - max
+    - addr
+    - label
+    - select coin
+    - fee
+
+- [to_fix] #991 [GUI] Move qr code to modal
+    - taproot truncated address, #1024 already open
+
+- [to_fix] #1017 Updating aliases doesn't record them
+    - see [video_record](assets/1017.mp4)
+
+- [to_fix] #861 GUI: RBF: automated labelling?
+  - seems that no `rbf` or `cancel` in the label (if a previous label was set):
+    - make a spend i labelled 'sparrow' in the send view
+    - sign
+    - broadcast
+    - go to transaction view
+    - select tx
+    - cancel
+    - sign
+    - broadcast
+    - tx is well replaced but new label is empty
 
 - [?] #791 GUI: Installer: Drop "backup descriptor" step when recovering from descriptor
-  - look at `participate` flow
+  - look at `participate` flow:
 
+  ![screenshot](assets/811.png)
 
+  we still ask user to backup the descriptor he just supply to liana, not sure we should drop this one but want to notice
+
+### To check
 
 
 - [ ] #826 Let coin selection use (some?) unconfirmed coins
+
 - [ ] #356 Support for rpcuser / rpcpassword instead of cookie file auth for bitcoind RPC
 - [ ] #929 [GUI] Use -rpcauth option for Liana-managed bitcoind instead of cookie path
-- [ ] #861 GUI: RBF: automated labelling?
-- [ ] #812 GUi: setup: address & cookie path doesn't update when choosing other network
-- [ ] #900 GUI: errors when triggering rescan aren't displayed, at all
-- [ ] #841 gui: double check change addresses
-- [ ] #934 Panic in installer if user changed network while using managed bitcoind
-- [ ] #903 RBF: warn the user if they are about to shoot them in the foot.
-- [ ] #811 Warn when adding the change output's value to fees.
+
+- [ ] try running under windows w/ 30 coins (should freeze?)
+
+- [ ] have a look to #326 GUI: errors about invalid inputs aren't always updated
+
+
+
+
 
 
 

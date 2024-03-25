@@ -6,7 +6,11 @@
 - [ ] Install Arch
 - [ ] IBD testnet <platform>
 - [ ] IBD Mainnet <platform>
-- [ ] Build <platform> commit <commit> 
+
+
+ - [x] Build Debian12
+ - [ ] Build Win 10
+ - [x] Build MacOS Sonoma
 
 ## Upgrade
 
@@ -167,6 +171,18 @@
 - [x] #934 Panic in installer if user changed network while using managed bitcoind
   - Ok, do not panic now
 
+- [x] #356 Support for rpcuser / rpcpassword instead of cookie file auth for bitcoind RPC
+
+  ![screenshot](assets/546_2.png)
+
+  tested w/ both legacy rpc credential and rpcauth
+
+- [ ] #929 [GUI] Use -rpcauth option for Liana-managed bitcoind instead of cookie path
+
+  ![screenshot](assets/546_1.png)
+
+
+
 ### Comments
 
 - [unexpected behaviour] #546 When sending, have a max button to send the whole balance (sweep wallet)
@@ -223,9 +239,6 @@
 
 
 - [ ] #826 Let coin selection use (some?) unconfirmed coins
-
-- [ ] #356 Support for rpcuser / rpcpassword instead of cookie file auth for bitcoind RPC
-- [ ] #929 [GUI] Use -rpcauth option for Liana-managed bitcoind instead of cookie path
 
 - [ ] try running under windows w/ 30 coins (should freeze?)
 

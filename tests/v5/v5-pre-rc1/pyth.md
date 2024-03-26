@@ -1,21 +1,14 @@
 # Template
 
-- [ ] Install Win10
-- [ ] Install Debian12
-- [ ] Install Ubuntu 22.04/22.10/23.04/23.10
-- [ ] Install Arch
-- [ ] IBD testnet <platform>
-- [ ] IBD Mainnet <platform>
-
-
  - [x] Build Debian12
- - [ ] Build Win 10
- - [x] Build MacOS Sonoma
 
-## Upgrade
+ - [?] Build Win 10
 
-- [ ] Upgrade from V2
-- [ ] Upgrade from V3
+  - cannot run on VM
+
+ - [?] Build MacOS Monterey
+
+  - cannot run on VM
 
 ## Setup 1 => from zero (Signet Managed by Liana, P2WSH)
 
@@ -177,13 +170,26 @@
 
   tested w/ both legacy rpc credential and rpcauth
 
-- [ ] #929 [GUI] Use -rpcauth option for Liana-managed bitcoind instead of cookie path
+- [x] #929 [GUI] Use -rpcauth option for Liana-managed bitcoind instead of cookie path
 
   ![screenshot](assets/546_1.png)
 
+- [x] try running under windows w/ 30 coins (should freeze?)
+
+  - works well not freeze (context: doing address reuse)
+
+  ![screenshot](assets/30_tx.png)
 
 
-### Comments
+- [x] #826 Let coin selection use (some?) unconfirmed coins
+
+  ![screenshot](assets/826.png)
+
+
+
+## Comments
+
+### Related w/ closed issues
 
 - [unexpected behaviour] #546 When sending, have a max button to send the whole balance (sweep wallet)
 
@@ -235,14 +241,28 @@
 
   we still ask user to backup the descriptor he just supply to liana, not sure we should drop this one but want to notice
 
+### New opened issues
+
+ - [#1039](https://github.com/wizardsardine/liana/issues/1039)
+ - [#1040](https://github.com/wizardsardine/liana/issues/1040)
+ - [#1041](https://github.com/wizardsardine/liana/issues/1041)
+ - [#1042](https://github.com/wizardsardine/liana/issues/1042)
+ - [#1043](https://github.com/wizardsardine/liana/issues/1043)
+ - [#1044](https://github.com/wizardsardine/liana/issues/1044)
+ - [#1045](https://github.com/wizardsardine/liana/issues/1045)
+ - [#1046](https://github.com/wizardsardine/liana/issues/1046)
+ - [#1047](https://github.com/wizardsardine/liana/issues/1047)
+ - [#1048](https://github.com/wizardsardine/liana/issues/1048)
+ - [#1049](https://github.com/wizardsardine/liana/issues/1049)
+ - [#1050](https://github.com/wizardsardine/liana/issues/1050)
+
+
+
 ### To check
 
 
-- [ ] #826 Let coin selection use (some?) unconfirmed coins
-
-- [ ] try running under windows w/ 30 coins (should freeze?)
-
 - [ ] have a look to #326 GUI: errors about invalid inputs aren't always updated
+  -> will check later
 
 
 

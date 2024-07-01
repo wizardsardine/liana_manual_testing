@@ -31,12 +31,12 @@
 wsh(or_i(and_v(v:thresh(1,pkh([8bad162e/48'/1'/0'/2']tpubDDycBkTWNrqFprvKr2mFUJYtSDYHckrhXqv6ckMZKzhTZNgYoTMHaX5oYitKdxXTiYK1BePhKScMYFqR6qR4G3MNnyD35N9xK8kZ7Bo6xxP/<6;7>/*),a:pkh([f25bdff6/48'/1'/0'/2']tpubDF8cqMgmJ6BMJwMoEhwAfgVDdXs29y6w2qG1i1ciaYVmqQ6cRTjNoqWJZD2kAR6vJrGcpVBVyYEgYm5GE88F3Z2SVbQxqwdbRZeyUeGwTnk/<4;5>/*),a:pkh([d3856607/48'/1'/0'/2']tpubDEe38Mq9U8dKrMRU3cSFD5e66rN8NURiyQdWujzHsUujECMpdVULVyNtoYnzdYGLqWGE1zShTKDokCkmTySFo7FZQ3C82dkF3yZ9NmKF8sN/<6;7>/*),a:pkh([d4ab66f1/48'/1'/0'/2']tpubDEXYN145WM4rVKtcWpySBYiVQ229pmrnyAGJT14BBh2QJr7ABJswchDicZfFaauLyXhDad1nCoCZQEwAW87JPotP93ykC9WJvoASnBjYBxW/<8;9>/*)),older(20000)),or_i(and_v(v:thresh(2,pkh([8bad162e/48'/1'/0'/2']tpubDDycBkTWNrqFprvKr2mFUJYtSDYHckrhXqv6ckMZKzhTZNgYoTMHaX5oYitKdxXTiYK1BePhKScMYFqR6qR4G3MNnyD35N9xK8kZ7Bo6xxP/<4;5>/*),a:pkh([f25bdff6/48'/1'/0'/2']tpubDF8cqMgmJ6BMJwMoEhwAfgVDdXs29y6w2qG1i1ciaYVmqQ6cRTjNoqWJZD2kAR6vJrGcpVBVyYEgYm5GE88F3Z2SVbQxqwdbRZeyUeGwTnk/<2;3>/*),a:pkh([d3856607/48'/1'/0'/2']tpubDEe38Mq9U8dKrMRU3cSFD5e66rN8NURiyQdWujzHsUujECMpdVULVyNtoYnzdYGLqWGE1zShTKDokCkmTySFo7FZQ3C82dkF3yZ9NmKF8sN/<4;5>/*),a:pkh([d4ab66f1/48'/1'/0'/2']tpubDEXYN145WM4rVKtcWpySBYiVQ229pmrnyAGJT14BBh2QJr7ABJswchDicZfFaauLyXhDad1nCoCZQEwAW87JPotP93ykC9WJvoASnBjYBxW/<6;7>/*)),older(15000)),or_i(and_v(v:thresh(3,pkh([f25bdff6/48'/1'/0'/2']tpubDF8cqMgmJ6BMJwMoEhwAfgVDdXs29y6w2qG1i1ciaYVmqQ6cRTjNoqWJZD2kAR6vJrGcpVBVyYEgYm5GE88F3Z2SVbQxqwdbRZeyUeGwTnk/<0;1>/*),a:pkh([d3856607/48'/1'/0'/2']tpubDEe38Mq9U8dKrMRU3cSFD5e66rN8NURiyQdWujzHsUujECMpdVULVyNtoYnzdYGLqWGE1zShTKDokCkmTySFo7FZQ3C82dkF3yZ9NmKF8sN/<2;3>/*),a:pkh([d4ab66f1/48'/1'/0'/2']tpubDEXYN145WM4rVKtcWpySBYiVQ229pmrnyAGJT14BBh2QJr7ABJswchDicZfFaauLyXhDad1nCoCZQEwAW87JPotP93ykC9WJvoASnBjYBxW/<4;5>/*)),older(10001)),or_d(multi(2,[8bad162e/48'/1'/0'/2']tpubDDycBkTWNrqFprvKr2mFUJYtSDYHckrhXqv6ckMZKzhTZNgYoTMHaX5oYitKdxXTiYK1BePhKScMYFqR6qR4G3MNnyD35N9xK8kZ7Bo6xxP/<0;1>/*,[d4ab66f1/48'/1'/0'/2']tpubDEXYN145WM4rVKtcWpySBYiVQ229pmrnyAGJT14BBh2QJr7ABJswchDicZfFaauLyXhDad1nCoCZQEwAW87JPotP93ykC9WJvoASnBjYBxW/<0;1>/*),and_v(v:thresh(3,pkh([8bad162e/48'/1'/0'/2']tpubDDycBkTWNrqFprvKr2mFUJYtSDYHckrhXqv6ckMZKzhTZNgYoTMHaX5oYitKdxXTiYK1BePhKScMYFqR6qR4G3MNnyD35N9xK8kZ7Bo6xxP/<2;3>/*),a:pkh([d3856607/48'/1'/0'/2']tpubDEe38Mq9U8dKrMRU3cSFD5e66rN8NURiyQdWujzHsUujECMpdVULVyNtoYnzdYGLqWGE1zShTKDokCkmTySFo7FZQ3C82dkF3yZ9NmKF8sN/<0;1>/*),a:pkh([d4ab66f1/48'/1'/0'/2']tpubDEXYN145WM4rVKtcWpySBYiVQ229pmrnyAGJT14BBh2QJr7ABJswchDicZfFaauLyXhDad1nCoCZQEwAW87JPotP93ykC9WJvoASnBjYBxW/<2;3>/*)),older(10000)))))))#mead3p9a
 
 - [failed] Register on A
-  [jade fail register descriptor](./assets/pyth9.png)
+  ![jade fail register descriptor](./assets/pyth9.png)
 - [x] Register on B
 - [failed] Register on C
-  [specter fail parse descriptor](./assets/pyth8.png)
+  ![specter fail parse descriptor](./assets/pyth8.png)
 - [failed] Register on D
-  [ledger failed parse descriptor1](/.assets/pyth10.png)
+  ![ledger failed parse descriptor1](/.assets/pyth10.png)
 
 
 - [x] Generate new wallet or(and(A,B),or(and(thresh(3,A,B,C,D), 10000),or(and(thresh(2,A,B,C,D), 15000),and(thresh(1,A,B,C,D), 2000))))
@@ -59,7 +59,7 @@ wsh(or_i(and_v(v:thresh(1,pkh([8bad162e/48'/1'/0'/2']tpubDDycBkTWNrqFprvKr2mFUJY
 
 - [x] rotate coin
   - [x] Check signing flow w/ Coldcard
-    [consolidating](./assets/pyth11.png)
+    ![consolidating](./assets/pyth11.png)
   - [x] Check signing flow w/ Jade
     sending coins to myself, all output displayed 
 
@@ -104,7 +104,7 @@ wsh(or_i(and_v(v:thresh(1,pkh([8bad162e/48'/1'/0'/2']tpubDDycBkTWNrqFprvKr2mFUJY
 - [x] Nano S+ (B)
 
 - [x] Generate new wallet A | B & 1 blocs
-  [descriptor](./assets/pyth12.png)
+  ![descriptor](./assets/pyth12.png)
 
 - [x] Register on A
 - [x] Let Liana handle bitcoind
@@ -139,7 +139,7 @@ cHNidP8BAH4CAAAAAYnWRH68NkHoRgIwUzHF/cGksigroV3tt4NQU8G77bV+AQAAAAD9////AiChBwAA
 
 Comment: both output are displayed on jade, the change should not:
 
-[jade change](./assets/pyth13.png)
+![jade change](./assets/pyth13.png)
 
 
 ## Issues
@@ -167,27 +167,27 @@ Comment: both output are displayed on jade, the change should not:
 
  - Warning on macOS Sonoma, cannot launch Liana:
  
- [macOS warning](./assets/pyth0.png)
+ ![macOS warning](./assets/pyth0.png)
   
   Note: can force execution by these steps:
 
-  [macOS no warning](./assets/pyth1.png)
+  ![macOS no warning](./assets/pyth1.png)
 
  - A terminal il always opened beside liana
 
-  [macOS terminal](./assets/pyth2.png)
+  ![macOS terminal](./assets/pyth2.png)
 
  - Liana Icon does not appear in macOS Dock
 
- [macOS dock](./assets/pyth3.png)
+ ![macOS dock](./assets/pyth3.png)
 
  - Coldcard Mk4 not detected om macOS(VM)
 
  - Liana is now detected as a `virus` by win10:
  
- [liana virus](./assets/pyth4.png)
+ ![liana virus](./assets/pyth4.png)
 
- [liana virus](./assets/pyth5.png)
+ ![liana virus](./assets/pyth5.png)
 
 ### Related w/ closed issues
 

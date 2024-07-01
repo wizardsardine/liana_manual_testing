@@ -200,3 +200,18 @@ Comment: both output are displayed on jade, the change should not:
 
 - 1155 Specter not detected on windows
 
+- 1156 udev rules (notes)
+
+- 1157 If we register descriptor then edit policy, we cannot register desciptor anymore
+
+- 1158 [Installer] if we move screen back during descriptor registration we get stuck 
+
+- 1159 Download also bitcoin-cli together bitcoind
+
+- 1160 Settings > Bitcoin Core: password should be selectable
+
+- 1161 Display how many blocks remain for recovery
+
+- 1162 Cannot register descriptor from settings w/ Jade
+
+- 1163 Coins selection does not work if only one unconfirmed coin

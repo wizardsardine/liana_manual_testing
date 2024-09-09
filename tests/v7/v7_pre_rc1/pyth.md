@@ -2,13 +2,13 @@ test made on top of #1241 @ 819eb92
 
 # Template
 
- - [ ] Build Arch
+ - [x] Build Arch
 
- - [ ] Build MacOS Sonoma
+ - [x] Build MacOS Sonoma
 
- - [ ] Build Debian12
+ - [x] Build Ubuntu 22.04
 
- - [ ] Build Win 10
+ - [x] Build Win 10
 
 ## Setup 1 => from zero (signet, p2wsh, fulcrum) arch
 
@@ -85,35 +85,33 @@ test made on top of #1241 @ 819eb92
 
 ### Machine 1 (macOS) handle Jade and Ledger using 'participate' mode
 
-  - [ ] Ledger (A)
-  - [ ] Share xpub to machine 2
+  - [x] Ledger (A)
+  - [x] Share xpub to machine 2
 
 ### Machine 2 (Win10) handle C using 'create' mode
 
-  - [ ] Coldcard (B)
-  - [ ] Register B on machine 2
+  - [x] Coldcard (B)
+  - [x] Register B on machine 2
 
-- [ ] Generate wallet or(A, and(B, timelock))
+- [x] Generate wallet or(A, and(B, timelock))
   -  
 
-- [ ] Register descriptor B (from settings)
-- [ ] Receive coins
-- [ ] go to expiration - 1 block
-- [ ] renew the coin
+- [x] Register descriptor B (from settings)
+- [x] Receive coins
+- [x] go to expiration - 1 block
+- [x] renew the coin
 
-- [ ] go to expiration + 1 block
-- [ ] prepare tx and send to machine 1 (PSBT)
-- [ ] share descriptor w/ machine 1
+- [x] go to expiration + 1 block
+- [x] prepare tx and send to machine 1 (PSBT)
+- [x] share descriptor w/ machine 1
 
 ### Back to machine 1
-- [ ] Import descriptor
-- [ ] Register descriptor A (from settings)
+- [x] Import descriptor
+- [x] Register descriptor A (from settings)
 
-- [ ] rescan
+- [x] craft recovery tx
 
-- [ ] craft recovery tx
-
-- [ ] Broadcast
+- [x] Broadcast
 
 ### Labels
 
@@ -253,30 +251,54 @@ test made on top of #1241 @ 819eb92
 
 ### Successfully checked
 
-- [ ] #1171 fix gui display feerate estimate
-- [ ] #1182 add space separator to btc amount
-- [ ] #1189 reset signing device registration if descriptor change
-- [ ] #1190 disable previous button if device processing
-- [ ] #1193 coldcard taproot
-- [ ] #1139 specter diy taproot
-- [ ] #1199 remove participate flow
-- [ ] #1211 add share xpub
-- [ ] #1236 display descriptor policy in installer
-- [ ] #1226 fix remaining time when close to 1 year
-- [ ] #1205 bump bitcoind to 27.1
+- [x] #1182 add space separator to btc amount
+  ![screeshot](./assets/1.png)
+
+- [x] #1189 reset signing device registration if descriptor change
+
+- [x] #1190 disable previous button if device processing
+  ![screenshot](./assets/2.png)
+
+- [x] #1193 coldcard taproot
+
+- [x] #1139 specter diy taproot
+
+- [x] #1199 remove participate flow
+- [x] #1211 add share xpub
+  ![screenshot](./assets/3.png)
+
+- [x] #1236 display descriptor policy in installer
+  ![screenshot](./assets/4.png)
+
+- [x] #1226 fix remaining time when close to 1 year
+  ![screenshot](./assets/5.png)
+
+- [x] #1205 bump bitcoind to 27.1
+  ![screenshot](./assets/6.png)
+  ![screenshot](./assets/7.png)
+  ![screenshot](./assets/8.png)
+
 - [ ] #1092 randomized anti-fee snipping
-- [ ] #1231 min window height
-- [ ] #1183 improve descriptor validation
-- [ ] #1214 add version in the title bar
-- [ ] #1212 change multipath not hardened
+- [x] #1231 min window height
+- [x] #1183 improve descriptor validation
+- [x] #1214 add version in the title bar
+  ![./assets/10.png]
+
+
+- [x] #1212 change multipath not hardened
+  ![./assets/9.png]
+
 - [ ] #1192 text overlap
-- [ ] #1167 fix on next button
-- [ ] #1174 fix on psbt labels
-- [ ] #1170 values in wallet settings
-- [ ] #1190 disable prev button if descriptor validation ongoing
-- [ ] #1189 reset signing device registartion state if descriptor change
-- [ ] #1186 add minimum feerate in feerate error
-- [ ] #1073 add -h/--help args to gui
+  ![./assets/11.png]
+
+- [x] #1167 fix on next button
+- [x] #1174 fix on psbt labels
+- [x] #1170 values in wallet settings
+- [x] #1190 disable prev button if descriptor validation ongoing
+- [x] #1189 reset signing device registartion state if descriptor change
+- [x] #1186 add minimum feerate in feerate error
+- [x] #1073 add -h/--help args to gui
+  ![screenshot](./assets/12.png)
 
 ## Comments
 

@@ -1,0 +1,37 @@
+{
+  "accounts": [
+    {
+      "descriptor": "wsh(or_i(and_v(v:thresh(2,pkh([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<2;3>/*),a:pkh([0e266cd1/48'/1'/0'/2']tpubDEFZePEvLmrRCsQu1M1H8RTTrLFBsmvSorPv5n9ybuvc8HcB4LrspavJDbfu5vtZWYfVj356KKFZ77RK6xLPuRTDc1Vv1tYubLAr5qAxozY/<2;3>/*),a:pkh([e2e975b7/48'/1'/0'/2']tpubDFkztzafRmw9sd9V2jwgiv5eafAAZmfQX5huqBLzbfFcNUzkCCWN2kpYHkjhzWvwrQuckyxmruVka7DWtzNRPy4Bpgty4vr9Sx6U5QmhGrw/<0;1>/*)),older(1)),and_v(v:pk([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<0;1>/*),pk([0e266cd1/48'/1'/0'/2']tpubDEFZePEvLmrRCsQu1M1H8RTTrLFBsmvSorPv5n9ybuvc8HcB4LrspavJDbfu5vtZWYfVj356KKFZ77RK6xLPuRTDc1Vv1tYubLAr5qAxozY/<0;1>/*))))#xwjre4ae",
+      "timestamp": 1743150005,
+      "keys": {
+        "0e266cd1": {
+          "key": "0e266cd1",
+          "alias": "Jade"
+        },
+        "c658b283": {
+          "key": "c658b283",
+          "alias": "ColdCard Mk4"
+        },
+        "e2e975b7": {
+          "key": "e2e975b7",
+          "alias": "BitBox02"
+        }
+      },
+      "proprietary": {
+        "config": {
+          "bitcoin_config": {
+            "network": "signet",
+            "poll_interval_secs": 30
+          },
+          "data_dir": "/home/pyth/.liana",
+          "log_level": "INFO",
+          "main_descriptor": "wsh(or_i(and_v(v:thresh(2,pkh([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<2;3>/*),a:pkh([0e266cd1/48'/1'/0'/2']tpubDEFZePEvLmrRCsQu1M1H8RTTrLFBsmvSorPv5n9ybuvc8HcB4LrspavJDbfu5vtZWYfVj356KKFZ77RK6xLPuRTDc1Vv1tYubLAr5qAxozY/<2;3>/*),a:pkh([e2e975b7/48'/1'/0'/2']tpubDFkztzafRmw9sd9V2jwgiv5eafAAZmfQX5huqBLzbfFcNUzkCCWN2kpYHkjhzWvwrQuckyxmruVka7DWtzNRPy4Bpgty4vr9Sx6U5QmhGrw/<0;1>/*)),older(1)),and_v(v:pk([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<0;1>/*),pk([0e266cd1/48'/1'/0'/2']tpubDEFZePEvLmrRCsQu1M1H8RTTrLFBsmvSorPv5n9ybuvc8HcB4LrspavJDbfu5vtZWYfVj356KKFZ77RK6xLPuRTDc1Vv1tYubLAr5qAxozY/<0;1>/*))))#xwjre4ae"
+        },
+        "liana_version": "10.0.0"
+      }
+    }
+  ],
+  "network": "signet",
+  "date": 1743150005,
+  "version": 0
+}

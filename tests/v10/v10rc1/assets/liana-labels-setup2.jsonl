@@ -1,0 +1,16 @@
+{"type":"output","ref":"9b265c186002e479e0ddc7acd841fc147afc2034a34f0ee1d740074c8a6f6c69:0","label":"teddg","spendable":true}
+{"type":"tx","ref":"9b265c186002e479e0ddc7acd841fc147afc2034a34f0ee1d740074c8a6f6c69","label":"teddg"}
+{"type":"tx","ref":"3fbb7eefc33c3ab35d72741d8a59d86bf4ad7a9cccb1626b97dc45d32117e22b","label":"teddg"}
+{"type":"output","ref":"3fbb7eefc33c3ab35d72741d8a59d86bf4ad7a9cccb1626b97dc45d32117e22b:0","label":"teddg","spendable":true}
+{"type":"output","ref":"0f72d59b1123b168090444b89beda5d97b488d0f72b989894429812610b7cde8:0","label":"teddg","spendable":true}
+{"type":"tx","ref":"0f72d59b1123b168090444b89beda5d97b488d0f72b989894429812610b7cde8","label":"teddg"}
+{"type":"tx","ref":"7db385c1282b88ba65179b643a9096bd9eb007a841c8b582b7e0ad13cc8058d2","label":"teddg"}
+{"type":"output","ref":"7db385c1282b88ba65179b643a9096bd9eb007a841c8b582b7e0ad13cc8058d2:0","label":"teddg","spendable":true}
+{"type":"output","ref":"896803f8091b3d0804a2cd330015c8a4ea490d0be76c343cee57dc02cd28e838:0","label":"tx1","spendable":true}
+{"type":"tx","ref":"896803f8091b3d0804a2cd330015c8a4ea490d0be76c343cee57dc02cd28e838","label":"tx1"}
+{"type":"tx","ref":"7c13b4733fff157c177061be59e5871fa87fde85eb43cb83d3c7ad4ab1e1b928","label":"tx2"}
+{"type":"tx","ref":"428f56ac9c8fa4f8a699f0e653f92ac6e57e4682c9846ca3578b6c23f42f13e4","label":"tx3"}
+{"type":"tx","ref":"33b4ad2999843a3390c92214a36b236af443e1fe54fc94fb4f79f68681023fcb","label":"tx4"}
+{"type":"output","ref":"33b4ad2999843a3390c92214a36b236af443e1fe54fc94fb4f79f68681023fcb:0","label":"tx4","spendable":true}
+{"type":"addr","ref":"bcrt1qj2qhj9sqe58wnyyp879r0fa7rgh3u7m0khad4w3563vvt8kq8mmqquml2l","label":"some_addr"}
+{"type":"output","ref":"983fe74773abdd5e73bdeac9b06cb78f71bc803a84fc11321d0f7178fd477618:1","label":"some coin","spendable":true}

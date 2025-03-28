@@ -1,0 +1,115 @@
+{
+  "name": "Liana-e8xsu3au",
+  "accounts": [
+    {
+      "name": "Liana-e8xsu3au",
+      "descriptor": "wsh(or_i(and_v(v:pkh([e2e975b7/48'/1'/0'/2']tpubDFkztzafRmw9sd9V2jwgiv5eafAAZmfQX5huqBLzbfFcNUzkCCWN2kpYHkjhzWvwrQuckyxmruVka7DWtzNRPy4Bpgty4vr9Sx6U5QmhGrw/<0;1>/*),older(65535)),or_d(pk([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<0;1>/*),and_v(v:pkh([d4ab66f1/48'/1'/0'/2']tpubDEXYN145WM4rVKtcWpySBYiVQ229pmrnyAGJT14BBh2QJr7ABJswchDicZfFaauLyXhDad1nCoCZQEwAW87JPotP93ykC9WJvoASnBjYBxW/<0;1>/*),older(100)))))#e8xsu3au",
+      "receive_index": 1,
+      "change_index": 0,
+      "timestamp": 1742973813,
+      "keys": {
+        "c658b283": {
+          "key": "c658b283",
+          "alias": "Coldcard"
+        },
+        "d4ab66f1": {
+          "key": "d4ab66f1",
+          "alias": "Nano S+"
+        },
+        "e2e975b7": {
+          "key": "e2e975b7",
+          "alias": "Wizardsardine - Safety Net",
+          "key_type": "ThirdParty",
+          "proprietary": {
+            "provider": {
+              "name": "Wizardsardine",
+              "uuid": "dc306075-ba3e-41ed-aa1a-b816197c963d"
+            },
+            "token": "844-dismiss-alarm-century",
+            "uuid": "67a06912-b57a-4a95-bb8a-67e7ea998496"
+          }
+        }
+      },
+      "labels": [
+        {
+          "type": "addr",
+          "ref": "bcrt1qp0qptmud2lp0r09fj3c0xfdw279w39xzu559825855udm4uqnuxsrnf07v",
+          "label": "first address"
+        },
+        {
+          "type": "output",
+          "ref": "b2daefc024be097a6114aae36347236b0c5e433baaef6b0d01ca120a74e465e8:0",
+          "label": "first coin",
+          "spendable": true
+        },
+        {
+          "type": "tx",
+          "ref": "b2daefc024be097a6114aae36347236b0c5e433baaef6b0d01ca120a74e465e8",
+          "label": "first payment"
+        }
+      ],
+      "transactions": [
+        "02000000000101b364c25fb5b5c3cdf57636b7c4f229947e275eba899fde89a9769f867717d3c60000000000fdffffff02202cb206000000002200200bc015ef8d57c2f1bca99470f325ae578ae894c2e52853aa87a538ddd7809f0d6ebf532301000000225120dde0d2122c569df4d8a769e63a229813af50a089180149f7e7054496d8822ba302473044022031dcb9da0d01b67b8c5e9fd86454fa2a6a801a7857a84b387c78c73b31e84a7902200b7e4a5c3365cfa327ddef9db692435f472fce873296070fb2db3f8e6217b2960121035156a706f735fb4afe82125590dd14da9147fa88395bcef474df352c1c022088c8000000"
+      ],
+      "coins": {
+        "b2daefc024be097a6114aae36347236b0c5e433baaef6b0d01ca120a74e465e8:0": {
+          "amount": 112340000,
+          "outpoint": "b2daefc024be097a6114aae36347236b0c5e433baaef6b0d01ca120a74e465e8:0",
+          "address": "bcrt1qp0qptmud2lp0r09fj3c0xfdw279w39xzu559825855udm4uqnuxsrnf07v",
+          "block_height": 201,
+          "account": 0,
+          "derivation_index": 0,
+          "is_coinbase": null,
+          "is_from_self": false
+        }
+      },
+      "chain_tip": {
+        "block_height": 201,
+        "block_hash": null
+      },
+      "proprietary": {
+        "config": {
+          "daemon_config_path": "/home/pyth/.liana/regtest/daemon.toml",
+          "daemon_rpc_path": null,
+          "debug": null,
+          "log_level": null,
+          "start_internal_bitcoind": false
+        },
+        "liana_version": "10.0.0",
+        "settings": {
+          "descriptor_checksum": "e8xsu3au",
+          "hardware_wallets": [],
+          "keys": [
+            {
+              "master_fingerprint": "e2e975b7",
+              "name": "Wizardsardine - Safety Net",
+              "provider_key": {
+                "provider": {
+                  "name": "Wizardsardine",
+                  "uuid": "dc306075-ba3e-41ed-aa1a-b816197c963d"
+                },
+                "token": "844-dismiss-alarm-century",
+                "uuid": "67a06912-b57a-4a95-bb8a-67e7ea998496"
+              }
+            },
+            {
+              "master_fingerprint": "d4ab66f1",
+              "name": "Nano S+",
+              "provider_key": null
+            },
+            {
+              "master_fingerprint": "c658b283",
+              "name": "Coldcard",
+              "provider_key": null
+            }
+          ],
+          "name": "Liana-e8xsu3au",
+          "remote_backend_auth": null
+        }
+      }
+    }
+  ],
+  "network": "regtest",
+  "date": 1742989648,
+  "version": 0
+}

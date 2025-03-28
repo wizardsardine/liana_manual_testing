@@ -1,0 +1,33 @@
+{
+  "accounts": [
+    {
+      "descriptor": "wsh(or_d(pk([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<0;1>/*),and_v(v:pkh([e2e975b7/48'/1'/0'/2']tpubDFkztzafRmw9sd9V2jwgiv5eafAAZmfQX5huqBLzbfFcNUzkCCWN2kpYHkjhzWvwrQuckyxmruVka7DWtzNRPy4Bpgty4vr9Sx6U5QmhGrw/<0;1>/*),older(200))))#0c8rrk2d",
+      "timestamp": 1743108643,
+      "keys": {
+        "c658b283": {
+          "key": "c658b283",
+          "alias": "Coldcard"
+        },
+        "e2e975b7": {
+          "key": "e2e975b7",
+          "alias": "BitBox02"
+        }
+      },
+      "proprietary": {
+        "config": {
+          "bitcoin_config": {
+            "network": "regtest",
+            "poll_interval_secs": 30
+          },
+          "data_dir": "/home/pyth/.liana",
+          "log_level": "INFO",
+          "main_descriptor": "wsh(or_d(pk([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<0;1>/*),and_v(v:pkh([e2e975b7/48'/1'/0'/2']tpubDFkztzafRmw9sd9V2jwgiv5eafAAZmfQX5huqBLzbfFcNUzkCCWN2kpYHkjhzWvwrQuckyxmruVka7DWtzNRPy4Bpgty4vr9Sx6U5QmhGrw/<0;1>/*),older(200))))#0c8rrk2d"
+        },
+        "liana_version": "10.0.0"
+      }
+    }
+  ],
+  "network": "regtest",
+  "date": 1743108643,
+  "version": 0
+}

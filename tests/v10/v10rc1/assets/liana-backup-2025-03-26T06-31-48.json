@@ -1,0 +1,46 @@
+{
+  "accounts": [
+    {
+      "descriptor": "wsh(or_i(and_v(v:pkh([e2e975b7/48'/1'/0'/2']tpubDFkztzafRmw9sd9V2jwgiv5eafAAZmfQX5huqBLzbfFcNUzkCCWN2kpYHkjhzWvwrQuckyxmruVka7DWtzNRPy4Bpgty4vr9Sx6U5QmhGrw/<0;1>/*),older(65535)),or_d(pk([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<0;1>/*),and_v(v:pkh([d4ab66f1/48'/1'/0'/2']tpubDEXYN145WM4rVKtcWpySBYiVQ229pmrnyAGJT14BBh2QJr7ABJswchDicZfFaauLyXhDad1nCoCZQEwAW87JPotP93ykC9WJvoASnBjYBxW/<0;1>/*),older(100)))))#e8xsu3au",
+      "timestamp": 1742967108,
+      "keys": {
+        "c658b283": {
+          "key": "c658b283",
+          "alias": "Coldcard"
+        },
+        "d4ab66f1": {
+          "key": "d4ab66f1",
+          "alias": "Nano S+"
+        },
+        "e2e975b7": {
+          "key": "e2e975b7",
+          "alias": "Wizardsardine - Safety Net",
+          "key_type": "ThirdParty",
+          "proprietary": {
+            "provider": {
+              "name": "Wizardsardine",
+              "uuid": "dc306075-ba3e-41ed-aa1a-b816197c963d"
+            },
+            "token": "844-dismiss-alarm-century",
+            "uuid": "67a06912-b57a-4a95-bb8a-67e7ea998496"
+          }
+        }
+      },
+      "proprietary": {
+        "config": {
+          "bitcoin_config": {
+            "network": "regtest",
+            "poll_interval_secs": 30
+          },
+          "data_dir": "/home/pyth/.liana",
+          "log_level": "INFO",
+          "main_descriptor": "wsh(or_i(and_v(v:pkh([e2e975b7/48'/1'/0'/2']tpubDFkztzafRmw9sd9V2jwgiv5eafAAZmfQX5huqBLzbfFcNUzkCCWN2kpYHkjhzWvwrQuckyxmruVka7DWtzNRPy4Bpgty4vr9Sx6U5QmhGrw/<0;1>/*),older(65535)),or_d(pk([c658b283/48'/1'/0'/2']tpubDFL5wzgPBYK5pZ2Kh1T8qrxnp43kjE5CXfguZHHBrZSWpkfASy5rVfj7prh11XdqkC1P3kRwUPBeX7AHN8XBNx8UwiprnFnEm5jyswiRD4p/<0;1>/*),and_v(v:pkh([d4ab66f1/48'/1'/0'/2']tpubDEXYN145WM4rVKtcWpySBYiVQ229pmrnyAGJT14BBh2QJr7ABJswchDicZfFaauLyXhDad1nCoCZQEwAW87JPotP93ykC9WJvoASnBjYBxW/<0;1>/*),older(100)))))#e8xsu3au"
+        },
+        "liana_version": "10.0.0"
+      }
+    }
+  ],
+  "network": "regtest",
+  "date": 1742967108,
+  "version": 0
+}

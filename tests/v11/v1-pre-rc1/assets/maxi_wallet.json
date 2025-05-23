@@ -1,0 +1,30 @@
+{
+  "name": "Liana-8pyhv26y",
+  "accounts": [
+    {
+      "name": "Liana-8pyhv26y",
+      "descriptor": "tr([c658b283/48'/1'/9'/2']tpubDFTvVpnXpYXFQv3TrjVSbivSYpVHnBomcHG5qxoaabZ8MjHi5iQ9q7xgJEaM1pwEe9QxmobXLae8t2HtxjYBUkZdoTMXPhL87N2iqRXcp7G/<0;1>/*,{and_v(v:pk([d4ab66f1/48'/1'/8'/2']tpubDEcnoakGw926LWF47MinynMNnqouVSW6qpgreHnesKEtL53Zs426EEdnJsCSQEvqCR1KB5E8JqUuyP35Wki3sc21b15KQZNn53ih6PEppZZ/<0;1>/*),older(50)),and_v(v:pk([e2e975b7/48'/1'/5'/2']tpubDFfQvtn4fio8kzJCPsZUiyrv93BAEwPWCSayKHABoT5ajRFMT18WoJCWS8NA6vywYuvUFwGv1RSakFJ5LzFjToSXRFesRwxPJadsF4S1pQD/<0;1>/*),older(100))})#8pyhv26y",
+      "timestamp": 1747965652,
+      "keys": {
+        "c658b283": {
+          "key": "c658b283",
+          "alias": "A Coldcard"
+        },
+        "d4ab66f1": {
+          "key": "d4ab66f1",
+          "alias": "B Ledger"
+        },
+        "e2e975b7": {
+          "key": "e2e975b7",
+          "alias": "C Bitbox"
+        }
+      },
+      "proprietary": {
+        "liana_version": "10.0.0"
+      }
+    }
+  ],
+  "network": "regtest",
+  "date": 1747965652,
+  "version": 0
+}

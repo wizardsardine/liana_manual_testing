@@ -1,0 +1,30 @@
+{
+  "name": "Liana-hqfx9k8v",
+  "accounts": [
+    {
+      "name": "Liana-hqfx9k8v",
+      "descriptor": "wsh(or_i(and_v(v:thresh(2,pkh([c658b283/48'/1'/1'/2']tpubDFm2m2rpqo9gfnXqxwTVDwDfdgpovAgt1BQw5bMrbHLeMsQZAZ7gd8wRKDoCBSxwycwa4g261YBwK7eMxXemWzFmAuKwqR82QiDpH73nqgG/<2;3>/*),a:pkh([0e266cd1/48'/1'/2'/2']tpubDEVPRs1SJrUmEWxaFExcNYXGJ2zwXR1Xv8jR1gDREuh7EB96iJ6nbmYMGs72xTRznqo7snRSVbtxZwnZ5N4KRjCtu6t1aXbFZX3sE7wZmUt/<2;3>/*),a:pkh([d4ab66f1/48'/1'/3'/2']tpubDELZQQSUMrTKnp2Wim3WVxMqbkpCYME6qHffwhdJ86Aatgn3xPHQE9JDvs7nerW1zmHPutMwpPt1kDdDHcwBB8vTSHbwqT31t6ztuzZ3CsV/<0;1>/*)),older(10)),and_v(v:pk([c658b283/48'/1'/1'/2']tpubDFm2m2rpqo9gfnXqxwTVDwDfdgpovAgt1BQw5bMrbHLeMsQZAZ7gd8wRKDoCBSxwycwa4g261YBwK7eMxXemWzFmAuKwqR82QiDpH73nqgG/<0;1>/*),pk([0e266cd1/48'/1'/2'/2']tpubDEVPRs1SJrUmEWxaFExcNYXGJ2zwXR1Xv8jR1gDREuh7EB96iJ6nbmYMGs72xTRznqo7snRSVbtxZwnZ5N4KRjCtu6t1aXbFZX3sE7wZmUt/<0;1>/*))))#hqfx9k8v",
+      "timestamp": 1748009697,
+      "keys": {
+        "0e266cd1": {
+          "key": "0e266cd1",
+          "alias": "B Jade"
+        },
+        "c658b283": {
+          "key": "c658b283",
+          "alias": "A Coldcard"
+        },
+        "d4ab66f1": {
+          "key": "d4ab66f1",
+          "alias": "C Ledger"
+        }
+      },
+      "proprietary": {
+        "liana_version": "10.0.0"
+      }
+    }
+  ],
+  "network": "signet",
+  "date": 1748009697,
+  "version": 0
+}

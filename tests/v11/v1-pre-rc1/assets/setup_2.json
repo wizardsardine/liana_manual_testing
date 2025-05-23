@@ -1,0 +1,26 @@
+{
+  "name": "Liana-674jk4tt",
+  "accounts": [
+    {
+      "name": "Liana-674jk4tt",
+      "descriptor": "wsh(or_d(pk([c658b283/48'/1'/4'/2']tpubDF34zRSZtCt3ZM9xEkJVunMZjB9wmUv6mP6McUzZkv3dbzMc9C6LnHtAHDxTAHddDSCgChkxsbvHwsMD1FW51ewHSrVezAoFRo1AHP8uSbr/<0;1>/*),and_v(v:pkh([e2e975b7/48'/1'/2'/2']tpubDFmD8DWkSX2KEd5TuSDE5sXTubFjQT4rb17zZ3xe3wwo9JaNZJvTZi4G23g4NJ5nXTXnR4mvcnewKGNeeRmQE583y6ANusDgpUudv6P9XjW/<0;1>/*),older(10))))",
+      "timestamp": 1747980368,
+      "keys": {
+        "c658b283": {
+          "key": "c658b283",
+          "alias": "A Coldcard"
+        },
+        "e2e975b7": {
+          "key": "e2e975b7",
+          "alias": "B Bitbox"
+        }
+      },
+      "proprietary": {
+        "liana_version": "10.0.0"
+      }
+    }
+  ],
+  "network": "regtest",
+  "date": 1747980368,
+  "version": 0
+}
